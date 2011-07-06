@@ -50,7 +50,7 @@ class TwitterUserIdentity extends TwitterComponent implements IUserIdentity {
 		  'consumer_key'    => $this->key,
 		  'consumer_secret' => $this->secret,
 		));
-		$here = 'http://localhost/voterspring/index.php?r=site/twitterlogin';
+		$here = Yii::app()->request->hostInfo . Yii::app()->request->url;
 		
 		// already got some credentials stored?
 		if (isset($session['access_token'])) {
