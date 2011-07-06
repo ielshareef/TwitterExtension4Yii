@@ -1,7 +1,7 @@
 Twitter Extension for the Yii Web Framework
 ============================================
 
-Authenticate a Twitter user within a Yii Web Application and consequently use the Facebook API. This extension is based on [tmhOAuth](https://github.com/themattharris/tmhOAuth).
+Authenticate a Twitter user within a Yii Web Application and consequently use the Twitter API. This extension is based on [tmhOAuth](https://github.com/themattharris/tmhOAuth).
 
 Developed by [@ielshareef](http://twitter.com/ielshareef).
 
